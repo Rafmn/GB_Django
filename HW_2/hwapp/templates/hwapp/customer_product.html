@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+    {% block title %}Список заказов{% endblock %}
+{% block content %}
+    <h1>Список заказанных {{ customer.name }} товаров из всех его заказов:</h1>
+ 
+    <ol>
+        {% for product in products %}
+        <li>{{ product.name }} {{ product.description }}</li>
+        {% endfor %}
+    </ol>
+    
+    </body>
+    </html>
+{% endblock %}
