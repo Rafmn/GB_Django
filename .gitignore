@@ -183,3 +183,7 @@ pdf
 Lessons
 task2
 HW_2/hwapp/management/commands/create_order.py
+task3
+task4
+HW_2/hwapp/migrations/0003_alter_order_total_price.py
+HW_2/hwapp/migrations/0004_alter_order_total_price.py
